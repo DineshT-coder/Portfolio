@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | DDT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <style>
+        .education-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .education-item {
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .education-item:hover {
+            background-color: #f0f0f0;
+        }
+        .education-details {
+            display: none;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        .active .education-details {
+            display: block;
+        }
+        .course-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .course-item {
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .course-item:hover {
+            background-color: #f0f0f0;
+        }
+        .course-details {
+            display: none;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        .course-details p {
+            margin: 0;
+        }
+        .active .course-details {
+            display: block;
+        }
+        
+        .left-align {
+            text-align: left;
+        }
+    </style>
+
+<style>
+    .course-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    .course-item {
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .course-item:hover {
+        background-color: #f0f0f0;
+    }
+    .course-details {
+        display: none;
+        padding-left: 20px;
+        margin-top: 5px;
+    }
+    .course-details p {
+        margin: 0;
+        padding: 5px 0;
+    }
+    .active .course-details {
+        display: block;
+    }
+</style>
+
+<link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white text-center py-5">
+        <h1 style="font-weight: bold;">About</h1>
+        <p id="dynamic-text" style="color: rgb(0, 0, 0);font-weight: bold;"></p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html"><img src="../images/home.png" alt="" style="height: 30px;width: 100%;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="../pages/project.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/certifications.html">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/skillset.html">Skillset</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 left-align">
+        <div class="container">
+            <h3 style="font-weight: bold;">Career Objective</h3><br>
+            <p style="text-indent: 70px;">Aspiring Software Developer with a strong foundation in programming and a passion for building efficient, scalable applications. Proficient in Java, Python, and problem-solving, I am eager to apply my skills to develop innovative software solutions. Committed to continuous learning and leveraging technology to drive impactful results.</p><br><br><br>
+            <h3 style="font-weight: bold;">Education</h3><br>
+            <ul class="education-list">
+                <li class="education-item">
+                    <span style="font-weight: bold;color:crimson;">B.Tech</span>
+                    <div class="education-details">
+                        <p>Dept: Information Technology</p>
+                        <p>College: Dr.Mahalingam College of Engineering and Technology</p>
+                        <p>GPA: 9.3</p>
+                        <p>Location: Pollachi,TN</p>
+                        <p>Duration: Aug '20 — Apr '24</p>
+                    </div>
+                </li>
+                <li class="education-item">
+                    <span style="font-weight: bold;color:crimson;">HSE</span>
+                    <div class="education-details">
+                        <p>School: Veveaham Hr Sec School</p>
+                        <p>Location: Dharapuram,TN</p>
+                        <p>Duration: Jun '19 — Apr '20</p>
+                    </div>
+                </li>
+                <li class="education-item">
+                    <span style="font-weight: bold;color:crimson;">SSLC</span>
+                    <div class="education-details">
+                        <p>School: R.G Matric Hr Sec School</p>
+                        <p>Location: Udumalpet,TN</p>
+                        <p>Duration: Jun '17 — Apr '18</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Course Completion Section -->
+    <section class="container py-5 left-align">
+        <h3 class="font-weight-bold">Course Completion</h3><br>
+        <ul class="course-list">
+            <li class="course-item">
+                <span style="font-weight: bold;color:crimson;">Fullstack Web Development</span>
+                <div class="course-details">
+                    <div class="details-grid">
+                        <p>Institution: TAP ACADEMY</p>
+                        <p>Duration: Jun 2024 - Jan 2025</p>
+                        <p>Location: BTM, Bangalore, KA</p>
+                    </div>
+                </div>
+            </li>
+            
+            <!-- Add more courses as needed -->
+        </ul>
+    </section>
+
+    <!-- Resume Download Section -->
+    <section class="container py-5 text-center">
+        <h2 class="font-weight-bold" style="color:rgb(0, 140, 255);">Download My Resume</h2>
+        <a href="https://drive.google.com/file/d/1gfOWSMiHzibdS5Mdo2b0YyalNAMe1PxT/view?usp=drivesdk" download="Dinesh_Resume.pdf" class="download-link" style="color:rgb(255, 0, 204);font-weight: bold;"><i class="fas fa-file-download"></i>Download Resume</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4" style="font-weight: bold;">
+        <p>&copy; 2024 Dinesh Dharshan Thangavel. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.education-item, .course-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+    <script src="../js/about.js"></script>
+</body>
+</html>

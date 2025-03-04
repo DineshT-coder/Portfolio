@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - DDT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .project-heading {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px;
+        }
+        .project-description {
+            margin-left: 20px;
+        }
+        .project-points {
+            list-style: none;
+            padding-left: 20px;
+        }
+        .project-points li {
+            margin-bottom: 5px;
+        }
+        .project-points li::before {
+            content: "➤ ";
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white text-center py-5">
+        <h1 style="font-weight: bold;">Projects</h1>
+        <p id="dynamic-text" style="color: rgb(0, 0, 0);font-weight: bold;"></p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html"><img src="../images/home.png" alt="" height="30px" width="100%"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="../pages/about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/skillset.html">Skillset</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/certifications.html">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 style="font-weight: bold;">Projects</h2>
+            <ul>
+                <li>
+                    <h4 class="project-heading" style="font-weight: bold;">E-Commerce Data Analysis and Customer Segmentation</h4>
+                    <div class="project-description">
+                        <ul class="project-points">
+                            <li>Conducted exploratory data analysis (EDA) on e-commerce transactions data to uncover sales trends.</li>
+                            <li>Built a Lookalike Model using cosine similarity to recommend similar customers, achieving a high accuracy score.</li>
+                            <li>Performed customer segmentation using clustering, identifying customer segments to drive marketing strategies.</li>
+                        </ul>
+                        <p><strong>Tools:</strong> Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn), Jupyter Notebook, GitHub.</p>
+                    </div>
+                </li>
+                <li>
+                    <h4 class="project-heading" style="font-weight: bold;">Weather Forecast</h4>
+                    <div class="project-description">
+                        <ul class="project-points">
+                            <li>Frontend: HTML, CSS, JS, React.js.</li>
+                            <li>API: Open Weathermap API & Accuweather API.</li>
+                            <li>The application is designed to provide users with real-time weather updates and forecasts, helping them plan their daily activities effectively.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h4 class="project-heading" style="font-weight: bold;">Food Order Application</h4>
+                    <div class="project-description">
+                        <ul class="project-points">
+                            <li>Frontend: HTML, CSS, JS, React.js.</li>
+                            <li>Backend: Java (Springboot).</li>
+                            <li>Database: SQL.</li>
+                            <li>The Food Order Application is a user-friendly platform designed to simplify the process of ordering food from a variety of restaurants.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h4 class="project-heading" style="font-weight: bold;">Automated E-commerce Website Testing</h4>
+                    <div class="project-description">
+                        <ul class="project-points">
+                            <li>Created an automation suite for an e-commerce website (e.g., Amazon clone).</li>
+                            <li>Wrote test cases to validate login, product search, cart, checkout, and payment processes.</li>
+                        </ul>
+                        <p><strong>Tech Stack:</strong> Selenium, Java, TestNG, JUnit.</p>
+                    </div>
+                </li>
+                <li>
+                    <h4 class="project-heading" style="font-weight: bold;">Todo List</h4>
+                    <div class="project-description">
+                        <ul class="project-points">
+                            <li>A simple todo list application to manage daily tasks.</li>
+                            <li>Technologies used: HTML, CSS, JavaScript.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h4 class="project-heading" style="font-weight: bold;">Puzzle Game</h4>
+                    <div class="project-description">
+                        <ul class="project-points">
+                            <li>An interactive puzzle game to challenge your problem-solving skills.</li>
+                            <li>Technologies used: HTML, CSS, JavaScript.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h4 class="project-heading" style="font-weight: bold;">Tic Tac Toe Game</h4>
+                    <div class="project-description">
+                        <ul class="project-points">
+                            <li>A classic tic-tac-toe game built for two players.</li>
+                            <li>Technologies used: HTML, CSS, JavaScript.</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p style="font-weight: bold;">&copy; 2024 Dinesh Dharshan Thangavel. All Rights Reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="../js/project.js"></script>
+</body>
+</html>
