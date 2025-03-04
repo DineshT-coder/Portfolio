@@ -3,7 +3,7 @@
 Welcome to my **personal portfolio website!** 🎨💻 This project showcases my **web development**
 
 ## 🌍 Live Demo  
-🔗 Visit My Portfolio:-https://dinesht-coder.github.io/Portfolio/
+🔗 Visit My Portfolio:- https://dinesht-coder.github.io/Portfolio/
 
 ## 🛠 Tech Stack  
 - 🌐 *Frontend:* HTML, CSS, JavaScript  
@@ -19,8 +19,8 @@ Welcome to my **personal portfolio website!** 🎨💻 This project showcases my
 ## 📸 Preview  
 
 
+![WhatsApp Image 2025-03-05 at 00 29 24_857a0f48](https://github.com/user-attachments/assets/9d385f73-26f4-47dc-91f7-81b6f698b34b)
 
-![WhatsApp Image 2025-03-05 at 00 29 24_df670e3c](https://github.com/user-attachments/assets/ab783a5a-933c-43a6-a7a6-0b0906b630e9)
 
 
 
